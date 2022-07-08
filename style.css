@@ -1,0 +1,53 @@
+/* CSS Reset */
+*{
+    margin:0;
+    padding:0;
+}
+/* Navigation Bar */
+#navbar{
+    padding-bottom:3px;
+     display: flex; 
+  
+}
+/* Logo and Image */
+#logo img{
+    margin:0px 0px;
+    background-color: blue;
+  
+}
+
+#navbar ul{
+    display: flex;
+    padding:auto;
+    padding-right:100%;
+    background-color:rgb(250, 142, 18);
+    margin-bottom: px;
+   
+    
+}
+#navbar  ul li a{
+    display: block;
+    list-style:none ;
+    padding: 50px 150px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 2.9em;
+    border:1px solid ;
+    margin:18px;
+}
+#navbar  ul li a:hover{
+    color:white;
+
+}
+
+#navbar li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+#home{
+   
+    display: block;
+    align-items: center;
+}
+
